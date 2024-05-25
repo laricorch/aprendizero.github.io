@@ -1,0 +1,156 @@
+body {
+    font-family: 'Berlin Sans FB Demi', sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+
+header {
+    background-color: #6689ad;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #6689ad;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.highlight {
+    background-color: #ADD8E6;
+}
+
+.custom-link {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p {
+            margin: 2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.link-hover-grow {
+    font-size: 16px;
+    transition: font-size 0.3s;
+}
+
+.link-hover-grow:hover {
+    font-size: 20px;
+}
+
+image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1000px;
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.image-caption {
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    background-color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.image-wrapper:hover .rounded-image {
+    transform: scale(1.1);
+}
+
+.image-wrapper:hover .image-caption {
+    opacity: 1;
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.contact-link {
+    color: blue;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.contact-link:hover {
+    transform: scale(1.1);
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+.imagem {
+    width: 500px;
+    height: 350px;
+}
+
+
